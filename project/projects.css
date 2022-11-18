@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,300;1,500&family=Raleway:wght@300;400;500&family=Roboto:wght@300;400;500;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-family: "Roboto", sans-serif;
+}
+body {
+  width: 100vw;
+
+  scroll-behavior: smooth;
+  background-color: #343a40b5;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='28' height='49' viewBox='0 0 28 49'%3E%3Cg fill-rule='evenodd'%3E%3Cg id='hexagons' fill='%239C92AC' fill-opacity='0.25' fill-rule='nonzero'%3E%3Cpath d='M13.99 9.25l13 7.5v15l-13 7.5L1 31.75v-15l12.99-7.5zM3 17.9v12.7l10.99 6.34 11-6.35V17.9l-11-6.34L3 17.9zM0 15l12.98-7.5V0h-2v6.35L0 12.69v2.3zm0 18.5L12.98 41v8h-2v-6.85L0 35.81v-2.3zM15 0v7.5L27.99 15H28v-2.31h-.01L17 6.35V0h-2zm0 49v-8l12.99-7.5H28v2.31h-.01L17 42.15V49h-2z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E"),
+    linear-gradient(to right top, #343a40, #2b2c31, #211f22, #151314, #000000);
+}
+header {
+  width: 100%;
+  padding: 20px 0 70px 0;
+  background: linear-gradient(to right, #77a0d399, #79cbca99, #e684ae8f);
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+h1 {
+  margin-top: 20px;
+  text-align: center;
+  color: rgb(18, 18, 18);
+}
+
+.projectsContainer {
+  width: 100%;
+  padding: 10px 200px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.title {
+  position: absolute;
+  letter-spacing: 2px;
+  bottom: 5px;
+  width: 100%;
+  font-size: 20px;
+  text-align: center;
+}
+.box {
+  position: relative;
+  text-decoration: none;
+  color: white;
+  margin: 20px;
+  max-width: 200px;
+  min-width: 180px;
+  height: 180px;
+  border: 2px solid #f8af97ba;
+  background: linear-gradient(to right, #77a0d36d, #79cbca6d, #e684ae62);
+  border-radius: 5px;
+  transition: all 0.4s ease;
+}
+.box:hover {
+  background: linear-gradient(to right, #77a0d3b5, #79cbcac6, #e684aec8);
+  color: black;
+  transform: translateY(-10px);
+}
+.projectImage {
+  width: 100%;
+  height: auto;
+}
+.back {
+  position: absolute;
+  text-decoration: none;
+  background-color: #00000099;
+  top: 100px;
+  left: 20px;
+  padding: 10px;
+  color: white;
+  border-radius: 5px;
+}
+.back:hover {
+  color: blue;
+}

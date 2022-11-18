@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,300;1,500&family=Raleway:wght@300;400;500&family=Roboto:wght@300;400;500;700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background-image: linear-gradient(
+      to bottom right,
+      rgba(0, 0, 0, 0.52),
+      rgba(109, 108, 108, 0.73),
+      rgba(0, 0, 0, 0.52),
+      rgba(109, 108, 108, 0.73),
+      rgba(0, 0, 0, 0.52),
+      rgba(109, 108, 108, 0.73)
+    ),
+    url("./pic/Screenshot\ \(69\).png");
+  background-size: cover;
+  color: rgb(180, 196, 249);
+}
+.container {
+  font-size: 20px;
+  width: 90%;
+  margin: 20px auto;
+}
+.big {
+  font-size: 100px;
+  color: rgb(192, 143, 70);
+}
+.pp {
+  display: flex;
+  justify-content: space-between;
+
+  flex-wrap: wrap;
+  width: 100%;
+}
+p {
+  width: 45%;
+  line-height: 2.4rem;
+}
+.progressSide {
+  width: 45%;
+}
+h3 {
+  margin-top: 20px;
+}
+.progressBar {
+  border-radius: 5px;
+  width: 300px;
+  background-color: white;
+  padding: 3px;
+}
+.progress {
+  border-radius: 5px;
+
+  height: 5px;
+}
+a {
+  color: rgb(142, 226, 212);
+}
+.back {
+  color: white;
+  padding: 5px;
+  background-color: blueviolet;
+  text-decoration: none;
+  cursor: pointer;
+  user-select: none;
+  border-radius: 8px;
+}

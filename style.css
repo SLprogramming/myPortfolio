@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,300;1,500&family=Raleway:wght@300;400;500&family=Roboto:wght@300;400;500;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-family: "Roboto", sans-serif;
+}
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: #000000;
+  background-size: cover;
+  background-image: radial-gradient(
+      rgba(255, 255, 255, 0.349) 0%,
+      rgba(0, 0, 0, 0.415) 70%
+    ),
+    url("./pic/476362.jpg.crdownload");
+  background-size: 80%;
+  background-position: right bottom;
+  background-repeat: no-repeat;
+}
+
+.longWord {
+  font-size: 30px;
+}
+a {
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-block;
+  padding: 0px 10px;
+  color: #f55858;
+  transition: all 0.4s ease;
+}
+
+h1 {
+  user-select: none;
+  margin: 50px auto;
+  max-width: 750px;
+  font-size: 70px;
+  opacity: 0.8;
+}
+.active {
+  color: rgba(245, 245, 245, 0.873);
+  transform: translateX(50px) scale(1.1);
+  opacity: 1;
+}
+.active1 {
+  transform: translateX(150px) !important;
+}
+.fa-brands {
+  font-size: 40px;
+  padding: 5px;
+}
+.icon {
+  border-radius: 5px;
+}
+.facebook {
+  background-color: #3b5998;
+  color: white !important;
+  transition: all 0.4s ease !important;
+}
+.instagram {
+  color: #f55858 !important;
+  background-color: #8a3ab9;
+  transition: all 0.7s ease !important;
+}
+.twitter {
+  color: #00acee !important;
+  background-color: white;
+  transition: all 0.8s ease !important;
+}
+.fActive {
+  transform: translateX(100px);
+}
+.fa {
+  background-color: white;
+  color: #3b5998 !important;
+}
+.iActive {
+  transform: translateX(120px);
+}
+.ia {
+  color: white !important;
+  background: linear-gradient(
+    to right,
+    white,
+    #8a3ab9,
+    #8a3ab9,
+    #fbad50,
+    #cd486b,
+    #4c68d7
+  );
+}
+.tActive {
+  transform: translateX(80px);
+}
+.ta {
+  color: white !important;
+  background-color: #00acee;
+}
+.logo {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 150px;
+  height: auto;
+}
+.iconContainer {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 300px;
+  height: 153px;
+  text-align: right;
+  bottom: 10px;
+  transform: translate(-300px, -100px);
+}
