@@ -10,16 +10,7 @@ html {
 body {
   width: 100vw;
   height: 100vh;
-  /* background-color: #000000;
-  background-size: cover;
-  background-image: radial-gradient(
-      rgba(255, 255, 255, 0.349) 0%,
-      rgba(0, 0, 0, 0.415) 70%
-    ),
-    url("./HD-wallpaper-light-bulb-abstract-bulb-candle-candles-hope-horizon-house-light-sunshine-unknown.jpg");
-  background-size: 80%;
-  background-position: right bottom;
-  background-repeat: no-repeat; */
+  
   background-image: url("./HD-wallpaper-light-bulb-a.jpg");
   background-size: 85%;
   background-position: top;
