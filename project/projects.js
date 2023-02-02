@@ -42,6 +42,16 @@ const projectsData = [
     url: "https://slprogramming.github.io/Frontend-Mentor-Huddle-landing-Page/",
     img: "./pic/huddle.png",
   },
+  {
+    title: "Real-estate Landing page",
+    url: "https://slprogramming.github.io/real-estate-page/",
+    img: "./pic/real-estate.png",
+  },
+  {
+    title: "illustation login page",
+    url: "https://slprogramming.github.io/illustation/",
+    img: "./pic/illu-station.png",
+  },
 ];
 /* <div class="projectsContainer">
       <a class="box" href="#">
